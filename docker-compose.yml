@@ -8,7 +8,3 @@ services:
     image: "mysql"
     environment:
       MYSQL_ROOT_PASSWORD: passsword
-    volumes:
-      -db-data:/foo
-volumes:
-  - db-data:/var/lib/postgresql/data
